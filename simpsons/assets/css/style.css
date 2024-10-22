@@ -92,3 +92,7 @@ header .navbar a:hover {
     text-align: justify;
     padding-bottom: 0.4em ;
 }
+
+ol{
+    margin-left: 50px;
+}
