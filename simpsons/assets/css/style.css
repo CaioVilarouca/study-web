@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 :root {
     --color-primary:#ff0000;
     --color-primary-backgroud:#fda90d;
     --color-secondary: #f0e9e9;
+}
+
+body{
+    background-color: rgb(247, 250, 244);
 }
 
 header .logo img {
@@ -63,7 +68,7 @@ header .navbar a:hover {
 
 .about .div-about .img-about img {
     border-radius: 0.5em;
-    width: 500px;
+    width: 550px;
 }
 
 .about .div-about:last-child {
@@ -73,12 +78,11 @@ header .navbar a:hover {
 .about .div-about .text-right {
     position: relative;
     top: 5vmin;
-    left: -7vmin;
-    background-color: rgb(247, 250, 244);
+    left: -7vmin;    
+    background-color: #fff;
     box-shadow: 25px 35px 50px 0 rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     padding: 10vmin 8vmin 10vmin 12vmin;
-
 }
 
 .about .div-about .text-right h1 {
@@ -91,6 +95,10 @@ header .navbar a:hover {
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     padding-bottom: 0.4em ;
+}
+
+.about .div-about .text-right span {
+    font-weight: bolder;
 }
 
 ol{
