@@ -56,13 +56,9 @@ header .navbar a:hover {
 }
 
 /*Sobre mim */
-
-.about {
+.about .flex {
     padding: 10vmin 20vmin 20vmin 20vmin;
     user-select: none;
-}
-
-.about .flex {
     display: flex;
 }
 
@@ -101,6 +97,15 @@ header .navbar a:hover {
     font-weight: bolder;
 }
 
-ol{
-    margin-left: 50px;
+/*Personagens Principais*/
+.main-characters  .flex{
+    padding: 10vmin 0;
+    user-select: none;
+    display: flex; 
+}
+
+.main-characters .flex .post{
+    margin: 25px;
+    width: 50px;
+    background: fuchsia;
 }
