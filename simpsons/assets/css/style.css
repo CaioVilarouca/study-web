@@ -98,6 +98,11 @@ header .navbar a:hover {
 }
 
 /*Personagens Principais*/
+.main-characters .head-main-characters {
+    text-align: center;
+    padding-top: 30px;
+}
+
 .main-characters  .flex {
     padding: 10vmin 0;
     user-select: none;
@@ -115,4 +120,13 @@ header .navbar a:hover {
 
 .main-characters .flex .post {
     text-align: center;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img { 
+    height: 230px;
 }
