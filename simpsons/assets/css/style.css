@@ -98,14 +98,17 @@ header .navbar a:hover {
 }
 
 /*Personagens Principais*/
-.main-characters  .flex{
+.main-characters  .flex {
     padding: 10vmin 0;
     user-select: none;
-    display: flex; 
+    display: flex;
 }
 
-.main-characters .flex .post{
-    margin: 25px;
-    width: 50px;
-    background: fuchsia;
+.main-characters .flex .img img {
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px 0 10px;
+    border-radius: 3px;
+    margin: 0 10px 0 10px ;
+    background-color: var(--color-primary-backgroud);
 }
