@@ -38,3 +38,7 @@
 .clear{
     clear: both;
 }
+
+h1 {
+    border:  solid 1px black;
+}
