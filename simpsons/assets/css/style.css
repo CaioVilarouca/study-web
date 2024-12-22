@@ -123,6 +123,7 @@ header .navbar a:hover {
     font-weight: 700;
 }
 
+/*Rodapé*/
 footer {
     text-align: center;
 }
@@ -130,3 +131,8 @@ footer {
 footer img { 
     height: 230px;
 }
+
+.hist img{
+    width: 1000px;
+}
+
