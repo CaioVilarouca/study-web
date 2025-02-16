@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: rgb(247, 250, 244);
+    background-color: #f7f7f7;
 }
 
 header .logo img {
@@ -45,7 +45,6 @@ header .navbar a {
     padding: 5px 10px;
     border: solid 1px transparent;
     border-radius: 3px;
-
 }
 
 header .navbar a:hover {
@@ -53,6 +52,23 @@ header .navbar a:hover {
     border: solid 1px var(--color-secondary);
     color: var(--color-secondary);
     box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);;
+}
+
+/*link a principal*/
+header .navbar .primary {
+    transition: 3ms;
+    border: solid 1px var(--color-secondary);
+    color: var(--color-secondary);
+    box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);;
+}
+
+header .navbar .primary:hover{
+    color: var(--color-primary);
+    text-decoration:none;
+    padding: 5px 10px;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    box-shadow: none;
 }
 
 /*Sobre mim */
